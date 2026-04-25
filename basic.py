@@ -30,3 +30,6 @@
 #set type
 #colors={"red,green,blue"}
 #print(colors)
+
+a="data"
+print(type(a))
