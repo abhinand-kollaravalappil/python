@@ -31,5 +31,5 @@
 #colors={"red,green,blue"}
 #print(colors)
 
-a="data"
-print(type(a))
+#a="data"
+#print(type(a))
