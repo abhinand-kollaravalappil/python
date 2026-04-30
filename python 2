@@ -1,0 +1,7 @@
+age=25
+print("age")
+
+greeeting="hello world"
+print("hrlloworld")
+
+is_active="true"

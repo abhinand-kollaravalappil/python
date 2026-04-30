@@ -21,3 +21,16 @@ text="python"
 #lower () method
 #text="hello python"
 #print(text.lower())
+
+#a="hello"
+#b="world"
+#rint(a+b)
+
+#a="hello"
+#b="world"
+#print(a+"  "+b)
+
+name=abhinand
+age=20
+
+
