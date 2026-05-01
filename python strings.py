@@ -1,36 +1,41 @@
-#string slicing
-text="python"
-#print(text[0:3])
-#print(text[2:5])
-#print(text[:4])
-#print(text[2:])
-#print(text[::-1])
+#escape charchters
+#isertig a ew line
+#print("hello\nworld")
 
-#text="hello world"
-#new_text=text.replace("world","python")
-#print(new_text)
+#inserting a tab
+#print("hello\tworld")
 
-#text="apple apple apple"
-#result=text.replace("apple","orange")
-#print(result)
+#string method
+#s="hello,world!"
+#print(len(s))
 
-#upper method
-#text="hello python"
-#print(text.upper())
+#strip
+#s="hello,world!"
+#print(s.strip())
 
-#lower () method
-#text="hello python"
-#print(text.lower())
-
-#a="hello"
-#b="world"
-#rint(a+b)
-
-#a="hello"
-#b="world"
-#print(a+"  "+b)
-
-name=abhinand
-age=20
+#split method
+#s="hello,world!"
+#print(s.split(","))
 
 
+#find  method
+#s="hello,world!"
+#print(s.find("world"))
+
+#count method
+#s="hello,hello,world"
+#print(s.count("hello"))
+
+#strat with()and end with()
+#="hello,world!"
+#print(s.startswith("hello"))
+#print(s.endswith("world!"))
+
+#upper()and lower()
+#s="hello,world!"
+#print(s.upper())
+#print(s.lower())
+
+#replace()
+#s="hello,world,"
+#print(s.replace("world,","python"))
