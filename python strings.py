@@ -39,3 +39,14 @@
 #replace()
 #s="hello,world,"
 #print(s.replace("world,","python"))
+
+#a=6
+#v=56
+#print("a*v")
+
+
+
+
+
+
+
