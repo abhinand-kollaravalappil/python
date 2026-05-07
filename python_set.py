@@ -44,3 +44,40 @@
 #print(my_set)
 
 
+
+#5 joining sets
+#union()
+#set1={1,2,3}
+#set2={3,4,5}
+#result=set1.union(set2)
+#print(result)
+
+#update()
+#set1={1,2,3}
+#set2={4,5,6}
+#set1.update(set2)
+#print(set1)
+
+#set intersection (&)
+#set1={1,2,3}
+#set2={2,3,4}
+#result=set1&set2
+#print(result)
+
+#set deffrence(-)
+#set1={1,2,3}
+#set2={2,3,4}
+#result=set1-set2
+#print(result)
+
+#set symmetric(^)
+#set1={1,2,3}
+#set2={2,3,4}
+#result=set2^set1
+#print(result)
+
+#frozen sets
+#my_frozen_set=frozenset([1,2,3,4])
+#print(my_frozen_set)
+
+
