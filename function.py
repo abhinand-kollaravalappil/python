@@ -51,8 +51,77 @@
 #print(list(even_numbers))
 
 #higher_order_function
-#def increment(n):
-   # lambda x:x+n
-#add_5=increment(5)
-#print(add_5(10))
+#def calulate(a,b,oprater):
+   #return oprater(a,b)
+
+#add=lambda x,y:x+y
+#sub=lambda x,y:x-y
+#multi=lambda x,y:x*y
+#devide=lambda x,y:x/y
+
+#print(calulate(10,20,add))
+#print(calulate(10,20,sub))
+#print(calulate(10,20,multi))
+#print(calulate(10,20,devide))
+
+#def multiply (a,b):
+   
+ #  result=multiply(4,5)
+#print(result)
+
+
+#x=10
+#def_outer_function():
+
+#x=5  #enclosing_scop
+#def_inner_function():
+#   x=2
+#   print
+#outer_function
+#print(x)
+
+#def greet():   #local_scop
+#   name="abhi"
+#   print(name)
+#greet()
+
+#global_scop
+#name="abhi"
+#def greet():
+#   print(name)
+#greet()
+#print(name)
+
+#arbitary arguments
+
+#def numbers(*num):
+#   print(num)
+#numbers(10,20,30)
+
+#def add(*numbers):
+#   print(sum(numbers))
+#add(1,2,3)
+#add(10,20,30,40)
+
+#keyword arguments
+
+#def detiils(**data):
+#   print(data)
+#detiils(nmae="abu",age=40)
+
+#def sum_numbers(*arg):
+#   total=0
+#   for numbers in arg:
+#      total+=numbers
+#   return total
+#result=sum_numbers(1,2,3,4,5)
+#print(result)
+
+#def print_detiles(**kwargs):
+#   for key,value in kwargs.items():
+#      print(f"{key}:{value}")
+#print_detiles(name="alice",age=30,city="newyork")
+
+
+
 
