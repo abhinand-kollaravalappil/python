@@ -123,5 +123,11 @@
 #print_detiles(name="alice",age=30,city="newyork")
 
 
+#using *arg and **kwargs together
+#def display_info(*arg,**kwarg):
+#   print("positional argument:",arg)
+#   print("keyword argument:",kwarg)
+#display_info(1,2,3,name="alice",age=25)
+
 
 
