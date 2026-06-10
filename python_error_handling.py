@@ -59,7 +59,7 @@
 
 #CUSTOM ERROR
 #class NegativeNumberError(Exception):
-#    pass
+#       pass
 #def cheak_number(num):
 #    if num<0:
 #       raise NegativeNumberError("who are you")
